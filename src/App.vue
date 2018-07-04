@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <HelloWorld msg=" - ha det bäst, homeslice."/>
   </div>
 </template>
 
@@ -17,12 +17,17 @@ export default {
 </script>
 
 <style>
+#template{
+  background-color: brown
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  background-color: black;
+  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: white;
   margin-top: 60px;
 }
 </style>
