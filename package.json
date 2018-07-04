@@ -2,12 +2,16 @@
   "name": "hello_world",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pelle91.github.io/lillpelle_com",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "vue": "^2.5.16"
   },
   "devDependencies": {
