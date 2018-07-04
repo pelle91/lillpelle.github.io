@@ -1,11 +1,13 @@
 <template>
   <div class="hello">
-
+    <br>
     <h1>hej, det är jag som är lillpelle</h1>
     <div> hoppas du har en helt OK dag.
       <br>
       <br>
-    {{ msg }}
+      <a target="_blank" href="https://www.youtube.com">videos</a>
+      <h3>{{ msg }}</h3>
+      <br>
     </div>
   </div>
 </template>
@@ -24,15 +26,8 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+
 a {
-  color: #42b983;
+  color: rgb(255, 0, 13);
 }
 </style>
